@@ -123,6 +123,38 @@ Buat file lab3_tabel.html dan isi struktur HTML-nya seperti berikut:
 ## Screenshot
 ![Membuat Tabel](gambar5.png)
 
+### Menggabungkan Sel Data
+Gunakan atribut rowspan atau colspan untuk menggabungkan baris atau kolom:
+```html
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Fakultas</th>
+      <th>Program Studi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td rowspan="3">Teknik</td>
+      <td>Teknik Informatika</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Teknik Industri</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Teknik Lingkungan</td>
+    </tr>
+  </tbody>
+</table>
+```
+## Screenshot
+![Menggabungkan Sel Data](gambar6.png)
+
+
 
 
 
