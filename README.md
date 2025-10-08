@@ -247,11 +247,14 @@ Buat file lab3_form.html dengan struktur dasar HTML:
 ```
 ### Penjelasan:
 
-select pertama adalah dropdown menu untuk memilih satu jurusan.
+*select pertama adalah dropdown menu untuk memilih satu jurusan.
 
-select kedua dengan atribut multiple menampilkan listbox yang memungkinkan memilih lebih dari satu mata kuliah.
+*select kedua dengan atribut multiple menampilkan listbox yang memungkinkan memilih lebih dari satu mata kuliah.
 
-size="4" menampilkan empat baris opsi agar terlihat jelas di halaman.
+*size="4" menampilkan empat baris opsi agar terlihat jelas di halaman.
+
+## Screenshot
+![Membuat form dengan dropdown dan listbox](tugas.png)
 
 
 
