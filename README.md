@@ -36,3 +36,6 @@ Buat file **lab3_list.html**, lalu isi struktur HTML dasar:
   </header>
 </body>
 </html>
+📸 **Membuat list**
+![Membuat list](gambar1.png)
+
