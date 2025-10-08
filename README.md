@@ -55,4 +55,21 @@ Ordered List menampilkan daftar yang berurutan (1, 2, 3 atau A, B, C).
 ## Screenshot
 ![Ordered list](gambar2.png)
 
+### 3. Unordered List
+Unordered List menampilkan daftar tidak berurutan, dengan simbol seperti lingkaran atau kotak.
+```html
+<section id="unorder-list">
+  <h2>Unordered List</h2>
+  <ul type="square">
+    <li>Jaringan Komputer</li>
+    <li>Struktur Data</li>
+    <li>Algoritma & Pemrograman</li>
+  </ul>
+</section>
+```
+## Screenshot
+![Unordered List](gambar3.png)
+
+
+
 
