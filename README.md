@@ -37,6 +37,22 @@ Buat file **lab3_list.html**, lalu isi struktur HTML dasar:
 </body>
 </html>
 ```
-## Membuat list
+## Screenshot
 ![Membuat list](gambar1.png)
+
+### 2. Ordered List
+Ordered List menampilkan daftar yang berurutan (1, 2, 3 atau A, B, C).
+```html
+<section id="order-list">
+  <h2>Ordered List</h2>
+  <ol type="A" start="D">
+    <li>Pemrograman Web</li>
+    <li>Sistem Informasi</li>
+    <li>Basis Data 2</li>
+  </ol>
+</section>
+```
+## Screenshot
+![Ordered list](gambar2.png)
+
 
