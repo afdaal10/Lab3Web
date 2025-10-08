@@ -215,6 +215,45 @@ Buat file lab3_form.html dengan struktur dasar HTML:
 ## Screenshot
 ![Menambahkan Style dengan Css](gambar8.png)
 
+### Membuat Form dengan Dropdown dan Listbox
+```html
+<form action="proses.php" method="post">
+  <fieldset>
+    <legend>Data Mahasiswa</legend>
+
+    <p>
+      <label for="jurusan">Pilih Jurusan:</label>
+      <select id="jurusan" name="jurusan">
+        <option value="TI">Teknik Informatika</option>
+        <option value="SI">Sistem Informasi</option>
+        <option value="RPL">Rekayasa Perangkat Lunak</option>
+        <option value="MI">Manajemen Informatika</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="matkul">Pilih Mata Kuliah:</label><br>
+      <select id="matkul" name="matkul[]" size="4" multiple>
+        <option value="web">Pemrograman Web</option>
+        <option value="basisdata">Basis Data</option>
+        <option value="algoritma">Algoritma & Pemrograman</option>
+        <option value="jarkom">Jaringan Komputer</option>
+      </select>
+    </p>
+
+    <p><input type="submit" value="Kirim"></p>
+  </fieldset>
+</form>
+```
+### Penjelasan:
+
+select pertama adalah dropdown menu untuk memilih satu jurusan.
+
+select kedua dengan atribut multiple menampilkan listbox yang memungkinkan memilih lebih dari satu mata kuliah.
+
+size="4" menampilkan empat baris opsi agar terlihat jelas di halaman.
+
+
 
 
 
