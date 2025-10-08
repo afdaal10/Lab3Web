@@ -1,3 +1,9 @@
+# Identitas Mahasiswa
+
+**Nama :** Afdhal Agislam  
+**NIM :** 312410445  
+**Kelas :** TI.24.A5  
+
 #  Praktikum 3: Membuat List, Table, dan Form
 
 ##  Tujuan
