@@ -1,6 +1,6 @@
-# 🧩 Praktikum 3: Membuat List, Table, dan Form
+#  Praktikum 3: Membuat List, Table, dan Form
 
-## 📘 Tujuan
+##  Tujuan
 Pada praktikum ini, mahasiswa belajar untuk:
 1. Memahami struktur dasar pembuatan **List (Daftar)**.
 2. Memahami struktur dasar pembuatan **Table (Tabel)**.
@@ -10,7 +10,7 @@ Pada praktikum ini, mahasiswa belajar untuk:
 
 ---
 
-## ⚙️ Persiapan
+##  Persiapan
 1. Buka **VS Code** atau text editor lainnya.  
 2. Buat folder baru dengan nama **Lab3Web**.  
 3. Lakukan setiap langkah secara berurutan sesuai panduan modul.  
@@ -18,7 +18,7 @@ Pada praktikum ini, mahasiswa belajar untuk:
 
 ---
 
-## 📝 Langkah-Langkah Praktikum
+## Langkah-Langkah Praktikum
 
 ### 1. Membuat List
 Buat file **lab3_list.html**, lalu isi struktur HTML dasar:
@@ -247,14 +247,36 @@ Buat file lab3_form.html dengan struktur dasar HTML:
 ```
 ### Penjelasan:
 
-*select pertama adalah dropdown menu untuk memilih satu jurusan.
+-select pertama adalah dropdown menu untuk memilih satu jurusan.
 
-*select kedua dengan atribut multiple menampilkan listbox yang memungkinkan memilih lebih dari satu mata kuliah.
+-select kedua dengan atribut multiple menampilkan listbox yang memungkinkan memilih lebih dari satu mata kuliah.
 
-*size="4" menampilkan empat baris opsi agar terlihat jelas di halaman.
+-size="4" menampilkan empat baris opsi agar terlihat jelas di halaman.
 
 ## Screenshot
 ![Membuat form dengan dropdown dan listbox](tugas.png)
+
+## Kesimpulan
+
+Dari hasil praktikum 3 tentang **Membuat List, Table, dan Form**, dapat disimpulkan bahwa:
+
+1. **List (Daftar)** digunakan untuk menampilkan data dalam bentuk poin-poin.  
+   - *Ordered List* menampilkan daftar berurutan (angka/huruf).  
+   - *Unordered List* menampilkan daftar tidak berurutan (simbol).  
+   - *Description List* menampilkan istilah dan penjelasan.
+
+2. **Table (Tabel)** berfungsi untuk menyajikan data dalam bentuk baris dan kolom,  
+   serta dapat dikombinasikan menggunakan atribut `rowspan` dan `colspan` agar tampilan lebih rapi dan terstruktur.
+
+3. **Form (Formulir)** digunakan untuk menerima input dari pengguna, seperti teks, pilihan, dan tombol.  
+   Dengan menggunakan tag `<form>`, data dapat dikirim menggunakan metode `GET` atau `POST`.
+
+4. **CSS (Cascading Style Sheets)** dapat digunakan untuk mempercantik tampilan elemen-elemen HTML,  
+   seperti menambahkan warna, mengatur jarak (padding/margin), serta memperjelas struktur layout halaman.
+
+5. Melalui praktikum ini, mahasiswa diharapkan memahami cara menggabungkan berbagai elemen HTML  
+   untuk membuat halaman web yang interaktif, terstruktur, dan memiliki tampilan yang menarik.
+
 
 
 
