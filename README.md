@@ -90,6 +90,39 @@ Description List digunakan untuk menampilkan istilah dan deskripsi.
 ## Screenshot
 ![Description List](gambar4.png)
 
+### 5. Membuat Table
+Buat file lab3_tabel.html dan isi struktur HTML-nya seperti berikut:
+```html
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Fakultas</th>
+      <th>Program Studi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td>Teknik</td>
+      <td>Teknik Informatika</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Teknik</td>
+      <td>Teknik Industri</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Teknik</td>
+      <td>Teknik Lingkungan</td>
+    </tr>
+  </tbody>
+</table>
+```
+## Screenshot
+![Membuat Tabel](gambar5.png)
+
 
 
 
