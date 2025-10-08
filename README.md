@@ -154,6 +154,28 @@ Gunakan atribut rowspan atau colspan untuk menggabungkan baris atau kolom:
 ## Screenshot
 ![Menggabungkan Sel Data](gambar6.png)
 
+### 3. Membuat Form
+Buat file lab3_form.html dengan struktur dasar HTML:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membuat Form</title>
+</head>
+<body>
+  <header>
+    <h1>Form Data Pelanggan</h1>
+  </header>
+</body>
+</html>
+```
+## Screenshot
+![Membuat Form](gambar7.png)
+
+
+
 
 
 
