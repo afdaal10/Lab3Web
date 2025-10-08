@@ -70,6 +70,26 @@ Unordered List menampilkan daftar tidak berurutan, dengan simbol seperti lingkar
 ## Screenshot
 ![Unordered List](gambar3.png)
 
+### 4. Description List
+Description List digunakan untuk menampilkan istilah dan deskripsi.
+```html
+<section id="desc-list">
+  <h2>Description List</h2>
+  <dl>
+    <dt>Fakultas Teknik</dt>
+    <dd>Teknik Informatika</dd>
+    <dd>Teknik Industri</dd>
+    <dd>Teknik Lingkungan</dd>
+    <dt>Fakultas Ekonomi dan Bisnis</dt>
+    <dd>Akuntansi</dd>
+    <dd>Manajemen</dd>
+    <dd>Bisnis Digital</dd>
+  </dl>
+</section>
+```
+## Screenshot
+![Description List](gambar4.png)
+
 
 
 
