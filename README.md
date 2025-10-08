@@ -123,7 +123,7 @@ Buat file lab3_tabel.html dan isi struktur HTML-nya seperti berikut:
 ## Screenshot
 ![Membuat Tabel](gambar5.png)
 
-### Menggabungkan Sel Data
+### 6. Menggabungkan Sel Data
 Gunakan atribut rowspan atau colspan untuk menggabungkan baris atau kolom:
 ```html
 <table border="1" cellpadding="6" cellspacing="0">
@@ -154,7 +154,7 @@ Gunakan atribut rowspan atau colspan untuk menggabungkan baris atau kolom:
 ## Screenshot
 ![Menggabungkan Sel Data](gambar6.png)
 
-### 3. Membuat Form
+### 7. Membuat Form
 Buat file lab3_form.html dengan struktur dasar HTML:
 ```html
 <!DOCTYPE html>
@@ -168,11 +168,54 @@ Buat file lab3_form.html dengan struktur dasar HTML:
   <header>
     <h1>Form Data Pelanggan</h1>
   </header>
+<form action="proses.php" method="post">
+  <fieldset>
+    <legend>Data Pelanggan</legend>
+    <p>
+      <label for="nama">Nama</label>
+      <input type="text" id="nama" name="nama">
+    </p>
+    <p>
+      <label for="alamat">Alamat</label>
+      <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+    </p>
+    <p>
+      <label>Jenis Kelamin</label>
+      <input id="jk_l" type="radio" name="kelamin" value="L"><label for="jk_l">Laki-laki</label>
+      <input id="jk_p" type="radio" name="kelamin" value="P"><label for="jk_p">Perempuan</label>
+    </p>
+    <p><input type="submit" value="Simpan"></p>
+  </fieldset>
+</form>
 </body>
 </html>
 ```
 ## Screenshot
 ![Membuat Form](gambar7.png)
+
+### 8. Menambahkan Style dengan CSS
+```html
+<style>
+  form p > label {
+    display: inline-block;
+    width: 100px;
+  }
+  form input[type="text"], form textarea {
+    border: 1px solid #197a43;
+  }
+  form input[type="submit"] {
+    border: 1px solid #197a43;
+    background-color: #197a43;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+  }
+</style>
+```
+## Screenshot
+![Menambahkan Style dengan Css](gambar8.png)
+
+
 
 
 
